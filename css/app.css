@@ -62,14 +62,14 @@
     .toggle {
         width: 25%;
         display: block;
-        margin-left: 6px;
+        margin-left: 22px;
     }
     .toggle .line{
         width: 30px;
         height: 3px;
         background-color: #ffffff;
         display: block;
-        margin: 8px auto;
+        margin: 8px 0px;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
@@ -348,6 +348,13 @@ table th, table td {
     .wrapper-content {
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+    width: 100%;
 }
 
 }
