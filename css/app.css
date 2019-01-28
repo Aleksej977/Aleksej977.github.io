@@ -340,14 +340,31 @@ table th, table td {
 .topnews__right{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
-
+.topnews__left{
+    width: 100%;
+}
+.topnews__left img{
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 886px) {
     .wrapper-content {
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.topnews__left{
+    width: 100%;
+}
+.topnews__left img{
+    width: 100%;
+}
+.topnews__right {
+    justify-content: space-around;
+    width: 100%
 }
 
 }
