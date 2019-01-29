@@ -373,5 +373,26 @@ table th, table td {
     .menu{
     width: 100%;
 }
+.nav-bar li{
+    margin-left: -26%;
+}
+.sub-nav li{
+    margin-left: 0%;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 40% !important;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    .bx-wrapper .bx-controls-direction a {
+    top: 30% !important;
+}
+}
+@media screen and (max-width: 500px) {
+    .topnews__left h2 {
+    top: 215px;
+}
 
 }
